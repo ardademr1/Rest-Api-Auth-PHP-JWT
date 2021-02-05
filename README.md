@@ -16,11 +16,19 @@
                         );" 
 
    3-  Create a table called "products"
-       SQL Commant "CREATE TABLE users(
+       SQL Commant "CREATE TABLE products(
                         id int(11) PRIMARY KEY AUTO_INCREMENT NOT NULL,
                         urunadi varchar(128) NOT NULL,
                         urungorseli varchar(128) NOT NULL,
                         urunfiyati varchar(128) NOT NULL,
+                        );" 
+   3-  Create a table called "payments"
+       SQL Commant "CREATE TABLE payments(
+                        id int(11) PRIMARY KEY AUTO_INCREMENT NOT NULL,
+                        kartno varchar(128) NOT NULL,
+                        kartsahibi varchar(128) NOT NULL,
+                        sonkultarihi varchar(128) NOT NULL,
+                        cvv varchar(128) NOT NULL,
                         );" 
    ```
 2. **SETUP YOUR DATABASE CONNECTION FİLE**
@@ -37,7 +45,7 @@
         public $conn;
    ```
    
-3. **READY TO GO! 🚀🚀🚀**
+3. **YOU ARE READY TO GO! 🚀🚀🚀**
 ```sh
    # Enter the following as the request URL
    http://localhost/rest-api-auth/
