@@ -22,7 +22,7 @@
                         urungorseli varchar(128) NOT NULL,
                         urunfiyati varchar(128) NOT NULL,
                         );" 
-   3-  Create a table called "payments"
+   4-  Create a table called "payments"
        SQL Commant "CREATE TABLE payments(
                         id int(11) PRIMARY KEY AUTO_INCREMENT NOT NULL,
                         kartno varchar(128) NOT NULL,
@@ -45,7 +45,7 @@
         public $conn;
    ```
    
-3. **YOU ARE READY TO GO! 🚀🚀🚀**
+3. **YOU ARE READY! 🚀🚀🚀**
 ```sh
    # Enter the following as the request URL
    http://localhost/rest-api-auth/
