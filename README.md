@@ -48,6 +48,6 @@
 3. **YOU ARE READY! 🚀🚀🚀**
 ```sh
    # Enter the following as the request URL
-   http://localhost/rest-api-auth/
+   http://localhost/rest-api-auth
    ```
 
